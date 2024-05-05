@@ -1,0 +1,27 @@
+{
+  "name": "c2pa-askar-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "pnpm tsx index.ts",
+    "tsx": "node --require tsx/cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@credo-ts/askar": "^0.5.2",
+    "@credo-ts/core": "^0.5.2",
+    "@credo-ts/node": "^0.5.2",
+    "@hyperledger/aries-askar-nodejs": "^0.2.1",
+    "c2pa-node": "^0.5.20"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
